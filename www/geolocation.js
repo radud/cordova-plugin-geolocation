@@ -26,7 +26,7 @@ var argscheck = require('cordova/argscheck'),
     Position = require('./Position');
 
 var timers = {};   // list of timers in use
-
+alert("test");
 // Returns default params, overrides if provided with values
 function parseParameters(options) {
     var opt = {
